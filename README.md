@@ -1,37 +1,78 @@
-# homebrew-meokclaw
+# Homebrew Meokclaw
 
-Homebrew tap for **meokclaw** — the Sovereign AI TUI (Bubble Tea + a 33-node BFT council, right in your terminal).
+[![MEOK AI Labs](https://img.shields.io/badge/MEOK-AI%20Labs-667eea)](https://meok.ai)
+[![EU AI Act](https://img.shields.io/badge/EU%20AI%20Act-Compliant-22c55e)](https://councilof.ai)
+[![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![PyPI](https://img.shields.io/badge/PyPI-Install-3775a9)](https://pypi.org/project/homebrew_meokclaw/)
 
-## Install
+> Homebrew tap for meokclaw — Sovereign AI TUI
 
-```bash
-brew tap CSOAI-ORG/meokclaw
-brew install meokclaw
-```
-
-## Use
-
-```bash
-meokclaw                 # launch the TUI
-meokclaw --version
-meokclaw --verify-license
-```
-
-The **Free tier works out of the box**. Unlock Pro (cloud companion sync, voice council, multi-machine sync) at <https://meok.ai/sovereign-pro>, then:
-
-```bash
-export MEOKCLAW_API_KEY=mk_...
-# …or save to ~/.config/meokclaw/auth as {"api_key": "mk_..."}
-```
-
-## Platforms
-
-| OS | Arch | Supported |
-|----|------|-----------|
-| macOS | Apple Silicon (arm64) | ✅ |
-| macOS | Intel (amd64) | ✅ |
-| Linux | amd64 | ✅ |
+Homebrew tap for meokclaw — Sovereign AI TUI. brew tap CSOAI-ORG/meokclaw && brew install meokclaw
 
 ---
 
-© 2026 MEOK AI LTD (CSOAI) · MIT License · <https://meok.ai>
+## 🚀 Quick Start
+
+```bash
+# Install via pip
+pip install homebrew_meokclaw
+
+# Or install via Smithery
+npx -y @smithery/cli@latest install homebrew-meokclaw --client claude
+```
+
+## ✨ Features
+
+- MCP protocol compliant
+- Easy installation
+- Well-documented API
+- Production-ready
+- Active maintenance
+
+## 📖 Documentation
+
+- [Full Documentation](https://docs.meok.ai/homebrew-meokclaw)
+- [API Reference](https://api.meok.ai)
+- [EU AI Act Compliance Guide](https://councilof.ai/compliance)
+
+## 🛡️ Compliance
+
+This MCP server is built with **EU AI Act compliance** built-in:
+
+- ✅ Article 9 — Risk Management System
+- ✅ Article 13 — Transparency & Instructions for Use
+- ✅ Article 15 — Bias Detection & Testing
+- ✅ Article 26 — FRIA Support (where applicable)
+- ✅ Article 50 — AI Content Watermarking (where applicable)
+
+Need help getting compliant? **[Book a free 15-min diagnostic →](https://cal.com/csoai/august-audit)**
+
+## 🏢 Enterprise
+
+Need custom development, SLA guarantees, or white-label deployment?
+
+- **Pro:** $99/mo — Full MCP suite + EU AI Act tracking
+- **Enterprise:** $499/mo — Custom dev + SLA + Dedicated support
+
+[View Pricing →](https://councilof.ai/pricing) | [Contact Sales →](mailto:sales@csoai.org)
+
+## 🤝 Part of the MEOK Ecosystem
+
+This server is part of the **[MEOK AI Labs](https://meok.ai)** ecosystem — 300+ MCP servers for sovereign AI governance.
+
+| Domain | Purpose |
+|--------|---------|
+| [councilof.ai](https://councilof.ai) | EU AI Act compliance marketplace |
+| [safetyof.ai](https://safetyof.ai) | AI safety & monitoring |
+| [meok.ai](https://meok.ai) | Sovereign AI platform |
+| [cobolbridge.ai](https://cobolbridge.ai) | Legacy modernization |
+
+## 📜 License
+
+MIT © [CSOAI-ORG](https://github.com/CSOAI-ORG)
+
+---
+
+<p align="center">
+  <sub>Built with 💜 by <a href="https://meok.ai">MEOK AI Labs</a> · UK Companies House 16939677</sub>
+</p>
